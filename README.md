@@ -1,1 +1,1 @@
-wsuwp-theme-showcase
+A Child theme for showcase.wsu.edu
