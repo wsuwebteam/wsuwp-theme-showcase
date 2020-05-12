@@ -24,7 +24,11 @@
 
 	<div class="column one">
 
-	<?php do_action( 'spine_theme_template_before_articles', 'page.php' ); ?>
+		<h1 class="wsuwp-showcase-search-title">2020 abstracts</h1>
+
+		<?php get_search_form(); ?> 
+
+		<?php do_action( 'spine_theme_template_before_articles', 'page.php' ); ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
@@ -34,7 +38,7 @@
 
 		<?php do_action( 'spine_theme_template_after_articles', 'page.php' ); ?>
 
-        <?php get_search_form(); ?> 
+       
 
 	</div><!--/column-->
 
