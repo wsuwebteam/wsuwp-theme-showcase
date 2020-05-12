@@ -24,6 +24,16 @@
 
 	<div class="column one">
 
+	<?php do_action( 'spine_theme_template_before_articles', 'page.php' ); ?>
+
+		<?php while ( have_posts() ) : the_post(); ?>
+
+		<?php wsuwp_spine_get_template_part( 'page.php', 'articles/article' ); ?>
+
+		<?php endwhile; ?>
+
+		<?php do_action( 'spine_theme_template_after_articles', 'page.php' ); ?>
+
         <?php get_search_form(); ?> 
 
 	</div><!--/column-->
