@@ -1,9 +1,3 @@
-<?php 
-/**
- * Template Name: Search Page
- */
-?> 
-
 <?php get_header(); ?>
 
 <?php do_action( 'spine_theme_template_before_main', 'page.php' ); ?>
@@ -26,7 +20,11 @@
 
 		<h1 class="wsuwp-showcase-search-title">2020 abstracts</h1>
 
-		<?php get_search_form(); ?> 
+		<form action="/" method="get">
+			<input type="text" name="s" id="search" value="<?php the_search_query(); ?>" placeholder="Search by: Author, Title, Category" />
+			<input type="text" name="cat" value="619" hidden />
+			<input class="showcase-search-button" type="submit" alt="Search" type="submit" value="Search" id="searchsubmit" />
+		</form> 
 
 		<?php do_action( 'spine_theme_template_before_articles', 'page.php' ); ?>
 
