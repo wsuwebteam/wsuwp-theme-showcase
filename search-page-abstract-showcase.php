@@ -26,6 +26,8 @@
 
 		<h1 class="wsuwp-showcase-search-title">2020 abstracts</h1>
 
+        <h2 class="wsuwp-showcase-search-title-subhead">Academic Showcase</h2>
+
 		<form action="/" method="get">
 			<input type="text" name="s" id="search" value="<?php the_search_query(); ?>" placeholder="Search by: Author, Title, Category" />
 			<input type="text" name="cat" value="619" hidden />
