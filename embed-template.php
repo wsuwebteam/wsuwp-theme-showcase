@@ -17,6 +17,8 @@
 	<!-- DOCS -->
 	<link type="text/plain" rel="author" href="https://repo.wsu.edu/spine/1/authors.txt" />
 	<link type="text/html" rel="help" href="https://brand.wsu.edu/media/web" />
+	<link rel="stylesheet" id="wsu_design_system_icons-css" href="https://cdn.web.wsu.edu/designsystem/1.x/wsu-icons/dist/wsu-icons.bundle.css?ver=0.6.0" media="all">
+	<link rel="stylesheet" id="wsu_design_system_bundle-css" href="https://cdn.web.wsu.edu/designsystem/1.1/build/dist/wsu-design-system.bundle.dist.css?ver=0.6.0" media="all">
 
 	<!-- SCRIPTS and STYLES -->
 	<!-- Custom scripts and styles should be added with wp_enqueue_script() and wp_enqueue_style() -->
